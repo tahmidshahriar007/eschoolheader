@@ -1,0 +1,43 @@
+/*font family*/
+@font-face{
+	src: url(../fonts/poppins-regular.ttf);
+	font-family: poppins-regular;
+}
+
+@font-face{
+	src: url(../fonts/roboto-regular.ttf);
+	font-family: roboto-regular.ttf;
+}
+
+/* common start */
+body{
+	font-family: poppins-regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+/* common start */
+
+header{
+	background-color: #F0FFF0;
+    padding: 15px 0;
+}
+
+.btn_signin {
+    padding: 12px 28px;
+    border-radius: 33px;
+    margin-left: 10px;
+}
+
+.btn_cm {
+    background-color: #21B573;
+    font-family: roboto-regular.ttf;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+
+.btn_cm:hover{
+	background-color: #31976A;
+	color: white;
+}
